@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Fonte do Google Fonts */
+    background: linear-gradient(to bottom, red, black);
+    color: white;
+}
+
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
+
+input {
+    padding: 10px;
+    margin: 15px 0;
+    width: calc(70% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: border-color 0.3s; /* Transição suave */
+}
+
+input:focus {
+    border-color: #4CAF50; /* Muda a cor da borda ao focar */
+}
+
+button {
+    padding: 12px 20px;
+    margin-left: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+h1 {
+    margin: 15px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+h2, h3 {
+    margin: 15px 0;
+    color: #d3d3d3;
+}
+
+p {
+    color: #d3d3d3;
+}
+
+/* Animações para o cartão de clima */
+.weather-card {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.weather-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    input {
+        width: calc(100% - 22px);
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .App {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px; /* Ajuste o tamanho do título */
+    }
+
+    h2, h3 {
+        font-size: 20px; /* Ajuste o tamanho dos subtítulos */
+    }
+
+    p {
+        font-size: 16px; /* Ajuste o tamanho do texto */
+    }
+}
