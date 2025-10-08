@@ -97,3 +97,12 @@ Para instalar o App Clima Tempo em sua máquina local, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/tatiane347/app-clima.git
+aqui esta meu perfil linkdn :
+ https://www.linkedin.com/in/tatiane-nascimento-68b0622bb/
+aqui esta meu site da App Clima Tempo
+https://tatiane347.github.io/app-clima/
+Se algum recrutador de empresa ou contratante para projetos freelancer quiser me contratar para trabalho entre em Email:tatianen25@gmail.com
+whatsapp:11910526709
+aqui esta do repositorio github:
+https://github.com/tatiane347/app-clima
+
