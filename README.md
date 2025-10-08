@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# App Clima Tempo
+
+Aplicativo de clima que fornece informações meteorológicas e previsões.
+
+## Descrição
+
+O App Clima Tempo é um aplicativo desenvolvido utilizando React, que permite aos usuários visualizar informações meteorológicas atuais e previsões do tempo. Ele foi criado com o objetivo de fornecer uma interface intuitiva e fácil de usar.
+
+![Screenshot do App Clima Tempo]  (public/Screenshot 2025-10-04 at 23-49-44 Clima Tempo.png)  <img width="980" height="472" alt="Captura de tela_2025-10-08_17-47-25" src="https://github.com/user-attachments/assets/c780281d-b7ae-4bf4-baa8-70149a6d45bc" />
+
+<img width="984" height="473" alt="Captura de tela_2025-10-08_17-48-15" src="https://github.com/user-attachments/assets/4a7f52b9-5729-4162-bc4d-aaf91e31bdb9" />
+<img width="983" height="474" alt="Captura de tela_2025-10-08_17-48-43" src="https://github.com/user-attachments/assets/6db74157-3f1c-48aa-b9cd-3b5c2fadee86" />
+
+
+
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **JavaScript**: Linguagem de programação principal utilizada.
+- **HTML/CSS**: Estrutura e estilo da aplicação.
+
+## Como Instalar
+
+Para instalar o App Clima Tempo em sua máquina local, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/tatiane347/app-clima.git
